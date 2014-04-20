@@ -1,0 +1,25 @@
+{
+  "name": "jade-aerie",
+  "version": "0.0.1",
+  "description": "Template cache management for jade-lang",
+  "keywords": [
+    "jade",
+    "cache",
+    "template",
+    "nested",
+    "russian doll",
+    "memcache"
+  ],
+  "homepage": "https://github.com/Konsiderate/jade-aerie",
+  "bugs": "https://github.com/Konsiderate/jade-aerie/issues",
+  "licenses": "MIT",
+  "author": "Matt McLaughlin <matt@konsiderate.com>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Konsiderate/jade-aerie.git"
+  },
+  "dependencies": {
+    "jade": "~1.3.1"
+  }
+}
