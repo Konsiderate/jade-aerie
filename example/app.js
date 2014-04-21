@@ -10,6 +10,11 @@ var users = require('./routes/users');
 
 var app = express();
 
+var Aerie = require('../');
+Aerie.locals({
+  name: 'Tony Stark'
+});
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
