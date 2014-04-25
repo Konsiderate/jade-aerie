@@ -27,6 +27,7 @@ app.use(cookieParser());
 app.use(require('less-middleware')({ src: path.join(__dirname, 'public') }));
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.use(Aerie.detectPartial);
 app.use('/', routes);
 app.use('/users', users);
 
