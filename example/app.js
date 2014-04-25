@@ -9,15 +9,15 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
-
 var Aerie = require('../');
-Aerie.locals({
-  name: 'Tony Stark'
-});
+var path = require('path');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
+app.set('compiledViews', Aerie.compileSync(app.get('views')));
+app.engine('jade', Aerie.__express);
 app.set('view engine', 'jade');
+app.locals.example = 'Aerie-Jade';
 
 app.use(favicon());
 app.use(logger('dev'));

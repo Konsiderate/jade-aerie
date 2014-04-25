@@ -1,5 +1,3 @@
 'use strict';
 
-var Aerie = require('./lib/aerie');
-
-module.exports = new Aerie();
+module.exports = require('./lib/aerie');
