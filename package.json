@@ -1,6 +1,6 @@
 {
   "name": "jade-aerie",
-  "version": "0.0.1",
+  "version": "0.0.8",
   "description": "Template cache management for jade-lang",
   "keywords": [
     "jade",
