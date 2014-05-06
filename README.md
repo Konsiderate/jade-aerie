@@ -1,3 +1,5 @@
+DO NOT USE THIS YET, IT'S A MASSIVE WORK IN PROGRESS. 
+
 # jade-aerie
 
 Template cache management for [jade-lang](http://jade-lang.com/) in [Node.js](http://nodejs.org/).
