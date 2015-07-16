@@ -1,6 +1,6 @@
 {
   "name": "jade-aerie",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "Template cache management for jade-lang",
   "scripts": {
     "test": "mocha"
