@@ -10,10 +10,8 @@ describe('View', function () {
     assert.equal(actual, expected);
   });
 
-  it('requires name param set', function () {
-    assert.throws(
-      function () {
-        Aerie.View();
-    }, TypeError);
+  it('should accept a cache connector', function () {
+    Aerie.connect({});
+    assert(Aerie.cacheConnector);
   });
 });
